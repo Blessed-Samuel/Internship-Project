@@ -1,0 +1,327 @@
+/* =================== General Styles ========================== */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Outfit", sans-serif;
+}
+
+body {
+    background-color: var(--Eggshell);
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.attribution h5 { 
+    font-size: 15px;
+    font-weight: 300;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    color: var(--white-neutral-color);
+}
+
+.attribution a { 
+    color: var(--lemon-green-color);
+    font-weight: var(--meduim-font-Weights);
+}
+
+/* =================== Custom Styles ========================== */
+:root {
+    /* Colors */
+    --White: hsl(0, 0%, 100%);
+    --Rose-White: hsl(330, 100%, 98%);
+    --Eggshell: hsl(30, 54%, 90%);
+    --Light-Grey: hsl(30, 18%, 87%);
+    --Wenge-Brown: hsl(30, 10%, 34%);
+    --Dark-Charcoal: hsl(24, 5%, 18%);
+    --Nutmeg-color: hsl(14, 45%, 36%);
+    --Dark-Raspberry: hsl(332, 51%, 32%);
+
+    /* Typography */
+    --paragraph-Font-size: 18px;
+    --header-font-size: 50px;
+    --header-font-Family: "Young Serif" serif;
+    --primary-font-Weights: 400;
+    --meduim-font-Weights: 500;
+    --secondary-font-Weights: 700;
+}
+
+.container {
+    background-color: var(--White);
+    box-shadow: 2px 5px 20px var(--off-black-neutral-color);   
+    width: 100%;
+    max-width: 50rem;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 10rem;
+    margin-bottom: 2.5rem;
+}
+
+.main__wrapper {
+    padding-top: 3rem;
+    padding-bottom: 17px;
+    width: 100%;
+    max-width: 45rem;
+}
+
+.image {
+    margin-top: 30px;
+    width: 100%;
+    max-width: 93%;
+}
+
+.image img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+/* Hero content rules */
+.hero__content {
+    width: 100%;
+    max-width: 93%;
+}
+
+.hero__content h2 {
+    color: var(--Dark-Charcoal);
+    font-family: "Young Serif", serif;
+    font-size: var(--header-font-size);
+    font-weight: var(--primary-font-Weights);
+    letter-spacing: 1px;
+    padding-bottom: 30px;
+}
+
+.hero__content p {
+    font-size: var(--paragraph-Font-size);
+    font-weight: var(--meduim-font-Weights);
+    color: var(--Wenge-Brown);
+    font-family: "outfit", sans-serif;
+}
+
+/* Preparations rules */
+.prep__menu {
+    margin-top: 3rem;
+    padding: 30px;
+    border-radius: 15px;
+    background-color: var(--Rose-White);
+}
+
+.prep__menu h4 {
+    font-size: 25px;
+    color: var(--Dark-Raspberry);
+    padding-bottom: 20px;
+}
+
+.prep__opt {
+    padding-left: 18px;
+}
+
+
+.prep__opt ul {
+    color: var(--Dark-Raspberry);
+    padding-left: 1rem;
+}
+
+.prep__opt ul li {
+    font-size: var(--paragraph-Font-size);
+    font-weight: var(--primary-font-Weights);
+    color: var(--Dark-Raspberry);
+    padding-left: 1rem;
+    margin: 10px;
+}
+
+.prep__opt span {
+    padding-left: 7px;
+    color: var(--Wenge-Brown);
+}
+
+.prep__opt b {
+    color: var(--Wenge-Brown);
+}
+
+/* Ingredients rules */
+.ing {
+    margin-top: 3rem;
+    border-bottom: 1px solid var(--Light-Grey);
+    padding-bottom: 30px;
+}
+
+.ing ul {
+    padding-left: 1rem;
+}
+
+.ing h4 {
+    font-size: 40px;
+    font-weight: var(--primary-font-Weights);
+    font-family: "Young Serif", serif;
+    color: var(--Dark-Raspberry);
+    padding-bottom: 20px;
+}
+
+.ing ul li {
+    font-size: var(--paragraph-Font-size);
+    font-weight: var(--meduim-font-Weights);
+    color: var(--Dark-Raspberry);
+    padding-left: 1rem;
+    margin: 15px;
+}
+
+.ing span {
+    color: var(--Wenge-Brown);
+} 
+
+/* Instructions Rules */
+.ins__menu {
+    margin-top: 3rem;
+    border-bottom: 1px solid var(--Light-Grey);
+    padding-bottom: 30px;
+}
+
+.ins__menu ol {
+    padding-left: 1rem;
+}
+
+.ins__menu h4 {
+    font-size: 40px;
+    font-weight: var(--primary-font-Weights);
+    font-family: "Young Serif", serif;
+    color: var(--Dark-Raspberry);
+    padding-bottom: 20px;
+}
+
+.ins__menu ol li {
+    font-size: 16px;
+    font-weight: var(--meduim-font-Weights);
+    color: var(--Dark-Raspberry);
+    padding-left: 5px;
+    margin: 15px;
+}
+
+.ins__menu span {
+    color: var(--Wenge-Brown);
+} 
+
+/* Nutrition rules */
+.nut__menu {
+    padding-left: 1rem;
+    margin-top: 3rem;
+}
+
+.nut__menu h4 {
+    font-size: 40px;
+    font-weight: var(--primary-font-Weights);
+    font-family: "Young Serif", serif;
+    color: var(--Dark-Raspberry);
+    padding-bottom: 20px;
+}
+
+.nut__menu p {
+    padding-bottom: 10px;
+    color: var(--Wenge-Brown);
+}
+
+.nut__menu h5 {
+    font-size: 20px;
+    font-weight: var(--primary-font-Weights);
+    font-family: "outfit", serif;
+    color: var(--Wenge-Brown);
+    padding-bottom: 20px;
+    
+}
+
+.nut__menu span {
+    font-weight: var(--secondary-font-Weights);
+    color: var(--Dark-Raspberry);
+    text-justify: distribute;
+}
+
+.item__list {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2rem;
+    max-width: 60%;
+}
+
+.items {
+    border-bottom: 1px solid var(--Light-Grey);
+}
+
+/* =================== Mobile Responsive Styles ========================== */
+@media screen and (max-width: 375px) {
+    body {
+        background-color: var(--White);
+    }
+
+    .container { 
+        max-width: 100%;
+        border-radius: 0;
+        margin: auto;
+        margin-bottom: 2rem;
+    }
+
+    .main__wrapper {
+        padding-top: 0;
+        padding-bottom: 0;
+        width: 100%;
+        max-width: 90%;
+    }
+
+    .image {
+        margin-top: 0;
+        width: 100%;
+        max-width: 100%;
+    }
+    
+    
+    .image img {
+        width: 100%;
+        border-radius: 0;
+    }
+
+    /* Hero content rules */
+    .hero__content {
+        width: 100%;
+        max-width: 100%;
+        margin-top: 20px;
+    }
+
+    .hero__content h2 {
+        font-size: 37px;
+        line-height: 110%;
+        letter-spacing: -1px;
+        padding-bottom: 20px;
+    }
+
+    .hero__content p {
+        font-size: 16px;
+        max-width: 97%;
+        line-height: 170%;
+    }
+    
+    /* Preparations rules */
+    .prep__menu {
+        border-radius: 15px;
+    }
+    
+    .prep__opt ul {
+        padding-left: 0;
+    }
+
+    /* Instruictions Rules */
+    .item__list {
+        padding-left: 20px;
+        max-width: 70%;
+    }
+    
+    .nut__menu h5 {
+        font-size: 17px;
+    }
+}
