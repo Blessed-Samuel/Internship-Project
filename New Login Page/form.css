@@ -1,0 +1,100 @@
+* {
+    font-family: 'poppins', sans serif;
+}
+
+body {
+    background-image: url("images/Man.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px 0 15px;
+}
+
+span {
+    color: #ffff;
+    font-size: small;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 10px 0;
+    padding-bottom: 20px;
+}
+
+h1 {
+    color: #ffff;
+    font-size: 35px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    letter-spacing: 0.9px;
+}
+
+.input-field {
+    display: flex;
+    flex-direction: column;
+    color: #ffff;
+}
+input {
+    height: 45px;
+    width: 87%;
+    border: none;
+    outline: none;
+    color: #ffff;
+    border-radius: 30px;
+    padding: 0 0 0 55px;
+    background-color: rgba(255, 255, 255, 0.212);
+    letter-spacing: 0.8px;
+}
+
+i {
+    position: relative;
+    bottom: 31.5px;
+    left: 30px;
+    color: #d8c6c6a1;
+}
+
+.submit {
+    border: none;
+    font-size: 18px;
+    width: 102%; 
+    outline: none;
+    background-color: rgba(0, 26, 255, 0.7);
+    cursor: pointer;
+    transition: 3s;
+    padding-right: 40px;
+}
+
+.submit :hover {
+    box-shadow: 1px 5px 7px 1px rgba(0, 0, 0, 0.2);
+    color: #ffff;
+}
+
+.bottom {
+    font-size: small;
+    color: #ffff;
+    margin-top: 10px;
+    width: 96%;
+    padding-left: 200px;
+}
+
+a:hover, a:active {
+    color: rgb(0, 42, 156);
+}
+
+label a{
+    color: #ffff;
+}

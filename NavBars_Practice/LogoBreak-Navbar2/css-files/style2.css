@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    /* background-color: #24252A; */
+    font-family: "Montserrat", sans-serif;
+}
+
+:root {
+
+    /* ====== COLORS ====== */
+    --primary-colors: #004139;
+
+
+    /* ====== FONTS ====== */
+    --nav-link-font-size: 16px;
+    --nav-branding-font-size: 30px;
+
+
+    /* ====== FONT-WEIGHTS====== */
+    --primary-font-weight: 400;
+    --medium-font-weight: 530;
+    --secondary-font-weight: 800;
+
+}
+
+li, a {
+    font-weight: var(--medium-font-weight);
+    font-size: var(--nav-link-font-size);
+    text-decoration: none;
+    color: var(--primary-colors);
+    font-family: cursive, sans-serif;
+}
+
+.nav-link li {
+    display: inline-block;
+    margin: 30px;
+}
+
+.nav-link li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav-link li a:hover {
+    color: blueviolet;
+}
+
+.nav-branding {
+    margin-right: auto;
+}
+
+.nav-branding a {
+    font-size: var(--nav-branding-font-size);
+    color: var(--primary-colors);
+    font-weight: var(--secondary-font-weight);
+    font-family: cursive;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 10px 30px;
+}
+
+.cta {
+    background-color: #004139;
+    color: white;
+    padding: 9px 30px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    margin-left: 25px;
+}
+
+.cta:hover {
+    background-color: #ffffff;
+    color: blueviolet;
+    border: 1px solid blueviolet;
+}
