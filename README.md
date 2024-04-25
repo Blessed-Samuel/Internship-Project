@@ -12,6 +12,7 @@ The "Internship Project" repository serves as a centralized hub for managing and
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
+- JavaScript
 
 ### Author
 - Website - [To visit projects, Click Here](https://github.com/Blessed-Samuel)
