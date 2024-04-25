@@ -17,4 +17,4 @@ The "Internship Project" repository serves as a centralized hub for managing and
 
 ### Author
 
-- Website - [Add your name here](https://github.com/Blessed-Samuel)
+- Website - [For more visit](https://github.com/Blessed-Samuel)
