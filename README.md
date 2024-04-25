@@ -14,4 +14,4 @@ The "Internship Project" repository serves as a centralized hub for managing and
 - Mobile-first workflow
 
 ### Author
-- Website - [For more, visit](https://github.com/Blessed-Samuel)
+- Website - [To visit projects, Click Here](https://github.com/Blessed-Samuel)
