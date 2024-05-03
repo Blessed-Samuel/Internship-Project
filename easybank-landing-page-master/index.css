@@ -126,6 +126,10 @@ a {
     text-align: center;
 }
 
+.btn:hover {
+    background: linear-gradient(to right, hsl(136, 63%, 64%), hsl(191, 62%, 75%));
+}
+
 .Hamburger {
     display: none;
     cursor: pointer;
