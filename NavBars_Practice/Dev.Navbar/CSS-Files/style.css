@@ -88,7 +88,7 @@ a {
         top: -100%;
         gap: 0;
         flex-direction: column;
-        background-color: #028374;
+        background-color: blue;
         width: 100%;
         text-align: center;
         transition: 0.6s;
