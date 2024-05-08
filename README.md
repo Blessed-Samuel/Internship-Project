@@ -15,4 +15,4 @@ The "Internship Project" repository serves as a centralized hub for managing and
 - JavaScript
 
 ### Author
-- Website - [To visit projects, Click Here](https://github.com/Blessed-Samuel)
+- Website - [visit project, Click Here](https://github.com/Blessed-Samuel)
